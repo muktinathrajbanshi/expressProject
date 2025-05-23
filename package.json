@@ -11,8 +11,10 @@
     "dev": "nodemon src/app.js -e js,hbs"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "express": "^5.1.0",
     "hbs": "^4.2.0",
+    "jquery": "^3.7.1",
     "mongoose": "^8.15.0"
   }
 }
