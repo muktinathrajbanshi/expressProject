@@ -43,7 +43,7 @@ figure img {
     font-size: 3.5rem;
     letter-spacing: 1px;
     text-transform: capitalize;
-    color: #fd5c63;
+    color: #0069d9;
     text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
     padding: 0;
 }
@@ -57,7 +57,7 @@ figure img {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fd5c63;
+    color: #0069d9;
 }
 
 /* our hero sections */
@@ -99,7 +99,7 @@ label {
     text-transform: uppercase;
     letter-spacing: 1px;
     border: 2px solid #fff;
-    background: #ec615b;
+    background: #0069d9;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -107,17 +107,23 @@ label {
     -o-transition: 0.5s all;
 }
 
+.btn-style:hover{
+    border: #1b1919;
+    background-color: #1b1919;
+}
+
 /* about us style starts */
 
 .about-style {
     margin: 10rem 0;
 }
+/* #fd5c63 */
 
 .about-style .main-heading,
 .service-style .main-heading,
 .contact-style .main-heading {
     font-size: 5rem;
-    color: #fd5c63;
+    color: #0069d9;
     letter-spacing: 1px;
     font-weight: bold;
 }
@@ -269,6 +275,10 @@ footer p {
         font-size: 2.5rem;
     }
 
+    .btn-style{
+        margin-left: 6rem;
+    }
+
     .hero-text h1 {
         font-size: 3rem;
     }
@@ -278,6 +288,7 @@ footer p {
     }
 
     figure img {
+        margin-left: auto;
         min-width: 100%;
     }
 

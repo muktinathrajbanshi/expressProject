@@ -22,6 +22,10 @@ const userSchema = mongoose.Schema({
         type:Number,
         required:true,
         minLength:3
+    },
+    date:{
+        type:Date,
+        default:Date.now
     }
 })
 
